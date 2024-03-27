@@ -1,0 +1,56 @@
+.form-component-login{
+    background-color:rgba(0, 0, 0, 0.6000000238418579);
+    box-shadow:0px 4px 15px rgba(0, 0, 0, 0.30000001192092896);
+    border-radius: 10px;
+    width: 39%;
+    height: 290%;
+    position: absolute;
+    padding: 5%;
+    margin-top: -2%;
+    margin-left: 30%;
+}
+
+.logoPerfil{
+    width: 20%;
+    margin-left: 40%;
+    margin-top: -8%;
+}
+
+.labelLogin{
+    color:#ffffff;
+    font-family:Inter;
+    letter-spacing:0;
+    margin-left: 7%;
+    margin-top: 10%;
+}
+
+.labelLogincontra{
+    color:#ffffff;
+    font-family:Inter;
+    letter-spacing:0;
+    margin-left: 7%;
+    margin-top: 15%;
+}
+
+.inputLogin{
+    background-color: #D9D9D9;
+    width: 90%;
+    font-size: 1.5em;
+    border-radius: 6px;
+    margin-left: 5%;
+    margin-top: -2%;
+}
+
+.bt-inicioSesion{
+    background-color: #17A2B8;
+    width: 32%;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 20%;
+    margin-left: 35%;
+}
+
+
+/*tipo de letra es inter*/
