@@ -1,0 +1,71 @@
+.contenedorDeTabla1{
+    width: 95%;
+    margin: 3%;
+}
+
+.botonVer{
+    border-radius: 7px;
+    color: white;
+    background-color: #17A2B8;
+    border-color: none;
+    border: none;
+    margin: 1%;
+}
+.botonDescarga{
+    border-radius: 7px;
+    color: white;
+    background-color: #28A745;
+    border-color: none;
+    border: none;
+    margin: 1%;
+}
+.botonEliminar{
+    border-radius: 7px;
+    color: white;
+    background-color: #FF0000;
+    border-color: none;
+    border: none;
+    margin: 1%;
+}
+
+.imagenFiltro{
+    margin-top: 4%;
+    height: 30%;
+}
+
+.botonFiltro{
+    border-radius: 7px;
+    background-color: white;
+    height: 49%;
+    margin-top: 3%;
+}
+
+.contenedorPrincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .contenedorCamposTexto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    width: 250px;
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  

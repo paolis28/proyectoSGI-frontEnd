@@ -1,0 +1,17 @@
+.LetraDocumentosH{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    margin-top: 0.7%;
+    margin-left: 1%;
+ }
+ .ContImgLetraH img{
+     width: 4%;
+     height: 4%;
+    
+ }
+ 
+ .ContImgLetraH{
+     margin-top: 2%;
+     margin-left: 3%;
+     
+ }
