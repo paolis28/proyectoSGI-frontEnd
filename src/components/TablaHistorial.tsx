@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-import '../assets/styles/TablaDocumentos.css';
+import '../assets/styles/TablaHistorial.css';
 import { Form, FormGroup, FormControl } from 'react-bootstrap';
 import ImgOjo from '../assets/img/FaRegEye.png';
 import ImgNube from '../assets/img/MdCloudDownload.png';
-import ImgEliminar from '../assets/img/MdDelete.png';
 import Filtro from '../assets/img/filtroIcon_.png'
 
 interface Documento {
@@ -22,10 +21,10 @@ const TablaDocumentos: React.FC = () => {
   ]);
 
   return (
-    <div className="contenedorDeTabla1">
+    <div className="contenedorDeTabla1H">
 <br /><br />
-<div className="contenedorCamposTexto">
-<Form className="contenedorCamposTexto">
+<div className="contenedorCamposTextoH">
+<Form className="contenedorCamposTextoH">
         <FormGroup>
           <Form.Label>Buscar</Form.Label>
           <FormControl type="text" placeholder="Nombre del documento" />
@@ -42,8 +41,8 @@ const TablaDocumentos: React.FC = () => {
           <Form.Label>Documento</Form.Label>
           <FormControl type="text" placeholder="Categoria" />
         </FormGroup>
-        <img className='imagenFiltro' src={Filtro} alt="" />
-        <button className='botonFiltro'>Aplicar filtro</button>
+        <img className='imagenFiltroH' src={Filtro} alt="" />
+        <button className='botonFiltroH'>Aplicar filtro</button>
       </Form>
       </div>
       <br />
@@ -70,14 +69,11 @@ const TablaDocumentos: React.FC = () => {
               <td>{documento.documento}</td>
               <td>{documento.fechaModificacion}</td>
               <td>
-                <button className='botonVer'>
+                <button className='botonVerH'>
                   <img src={ImgOjo} alt=""/>Ver
                 </button>
-                <button className='botonDescarga'>
+                <button className='botonDescargaH'>
                   <img src={ImgNube} alt=""/> Descargar
-                </button>
-                <button className='botonEliminar'>
-                  <img src={ImgEliminar} alt=""/> Eliminar
                 </button>
               </td>
             </tr>
