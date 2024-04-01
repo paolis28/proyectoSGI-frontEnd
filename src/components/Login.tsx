@@ -1,14 +1,16 @@
 import React from 'react';
 import { Form } from 'react-bootstrap';
 import "../assets/styles/componenLogin.css"
-import logoPerfil from "../assets/img/iconoPerfil.png";
+import trinorma2 from "../assets/img/trinorma2_1.png";
 //<link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet"></link>
 
 const FormLogin = () => {
     return (
     <Form className='form-component-login'>
         <Form.Group>
-            <img src={logoPerfil} className='logoPerfil'/><br/>
+            <img src={trinorma2} className='logoPerfil'/>
+            <label className='lb-tituloLogin'>Sistema de Gesgtión Integral</label>
+            <br/>
           <Form.Label className='labelLogin'>Usuario:</Form.Label>
           <input className='inputLogin'/>
         </Form.Group>

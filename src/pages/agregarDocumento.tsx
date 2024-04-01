@@ -64,6 +64,16 @@ const PageAgregarDocumento=()=>{
                             <option value="2">Two</option>
                             <option value="3">Three</option>
                         </Form.Select>
+                        
+                        <Form.Group className="position-relative mb-3">
+                            <Form.Label>File</Form.Label>
+                            <Form.Control
+                            type="file"
+                            required
+                            name="file"
+                            />
+                        </Form.Group>
+
                     </Col>
                 </Row>
                 <button className="bt-agrDocumento">Agregar</button>
@@ -74,3 +84,23 @@ const PageAgregarDocumento=()=>{
 }
 
 export default PageAgregarDocumento;
+
+
+/*ESTE CÓDIGO ES PARA ELEGIR UN DOCUMENTO
+
+          <Form.Group className="position-relative mb-3">
+            <Form.Label>File</Form.Label>
+            <Form.Control
+              type="file"
+              required
+              name="file"
+              onChange={handleChange}
+              isInvalid={!!errors.file}
+            />
+            <Form.Control.Feedback type="invalid" tooltip>
+              {errors.file}
+            </Form.Control.Feedback>
+          </Form.Group>
+
+
+*/
