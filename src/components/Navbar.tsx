@@ -16,17 +16,17 @@ export const NavbarPrincipal=()=>{
         <Container>
             <img src={uplogo_1}/>
             <Nav className="me-auto">
-                <Nav.Link href="#documentos">
+                <Nav.Link href="/documentos">
                     <img src={documento}  className="trinorma"/>
                     Documentos
                 </Nav.Link>
 
-                <Nav.Link href="#agregarDocumento">
+                <Nav.Link href="/agregarDocumento">
                     <img src={agregarDocumento}  className="trinorma"/>
                     Agregar Documento
                 </Nav.Link>
 
-                <Nav.Link href="#historial">
+                <Nav.Link href="/historialDocumentos">
                     <img src={historial}  className="trinorma"/>
                     Historial
                 </Nav.Link>

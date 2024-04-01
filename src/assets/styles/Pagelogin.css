@@ -9,17 +9,8 @@
     height: 100%;
     position: absolute;
 }
-
+/* 
 .containerInicial > .ContainerLogoLogin{
     position: relative;
-}
+} */
 
-.logoizquierdo{
-    width: 20%;
-    margin-top: 2%;
-}
-.logoderecho{
-    margin-left: 70%;
-    width: 8%;
-    margin-top: 5%;
-}
