@@ -1,5 +1,58 @@
 .sp-logoIndicacion{
     display: flex;
+    margin-top: 5%;
+}
+
+.sp-logoIndicacion > img{
+    width:5%;
+    margin-top: -2%;
+    margin-right: 1%;
+}
+
+.fila-agrDocumento{
+    width: 95%;
+}
+
+.col-1-agrdocumento{
+    margin-left: 8%;
+}
+
+.col-2-agrdocumento{
+    margin-left: 10%;
+}
+
+
+.div-file{
+    background-color:rgba(33.00000183284283, 150.0000062584877, 243.00000071525574, 0.07999999821186066);
+    border:1px solid rgba(33.00000183284283, 150.0000062584877, 243.00000071525574, 1);
+    height: 100px;
+    width: 100%;
+    border-radius: 8px;
+    border-style: dashed;
+    border-width: 2px;
+    border-spacing: 6px;
+}
+
+.div-file > label{
+    color:rgba(33.00000183284283, 150.0000062584877, 243.00000071525574, 1);
+    text-decoration: underline;
+}
+
+.div-file > p{
+    color:rgba(0, 0, 0, 0.6000000238418579);
+    font-family:Roboto;
+    text-align:center;
+    font-size:1em;
+    letter-spacing:0.17000000178813934;
+}
+
+.input-file-document{
+    color:rgba(0, 0, 0, 0.6000000238418579);
+    font-family:Roboto;
+	text-align:center;
+	font-size:14px;
+	letter-spacing:0.17000000178813934;
+    cursor: pointer;
 }
 
 .bt-agrDocumento{
@@ -12,6 +65,7 @@
     border-radius: 5px;
     border: none;
     cursor: pointer;
+    margin-left: 37%;
 }
 
 .bt-carlDocumento{
@@ -24,6 +78,5 @@
     border-radius: 5px;
     border: none;
     cursor: pointer;
-}
-
-
+    margin-left: 3%;
+}	
