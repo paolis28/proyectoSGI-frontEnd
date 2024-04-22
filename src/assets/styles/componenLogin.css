@@ -50,7 +50,9 @@
 
 .bt-inicioSesion{
     background-color: #17A2B8;
-    width: 32%;
+    width: 35%;
+    height: 10%;
+    font-weight: 600;
     color: #ffffff;
     border: none;
     cursor: pointer;

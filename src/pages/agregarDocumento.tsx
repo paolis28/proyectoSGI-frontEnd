@@ -85,8 +85,13 @@ const PageAgregarDocumento=()=>{
                             <option value="1">Procedimientos Académicos</option>
                             <option value="1">Registros Académico</option>
                         </Form.Select><br/>
-                    
+{/*                     
                     <div className="div-file">
+
+
+                        <label>Click to upload</label>
+                        <p>SVG, PNG, JPG or GIF (max. 3MB)</p>
+                    </div> */}
                         <input
                             className="input-file-document"
                             type="file"
@@ -98,10 +103,6 @@ const PageAgregarDocumento=()=>{
                         {selectedFile && (
                             <p>Archivo seleccionado: {selectedFile.name}</p>
                         )}
-                        <label>Click to upload</label>
-                        <p>SVG, PNG, JPG or GIF (max. 3MB)</p>
-                    </div>
-
                     </Col>
                 </Row><br/>
                 <button className="bt-agrDocumento">Agregar</button>

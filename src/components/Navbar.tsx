@@ -1,7 +1,7 @@
 import React from "react";
 import {Navbar,Container,Nav,InputGroup,Form } from 'react-bootstrap';
 
-import uplogo_1 from "../assets/img/uplogo_1.png";
+//import uplogo_1 from "../assets/img/uplogo_1.png";
 import documento from "../assets/img/documento.png";
 import agregarDocumento from "../assets/img/agregar-documento.png";
 import historial from "../assets/img/historial.png";
@@ -14,8 +14,8 @@ export const NavbarPrincipal=()=>{
     return(
         <Navbar className="bg-body-tertiary">
         <Container>
-            <img src={uplogo_1}/>
-            <Nav className="me-auto">
+        <img src={trinorma2} className="trinorma"/>
+            <Nav className="me-auto" style={{marginLeft:"4%"}}>
                 <Nav.Link href="/documentos">
                     <img src={documento}  className="trinorma"/>
                     Documentos
@@ -32,17 +32,15 @@ export const NavbarPrincipal=()=>{
                 </Nav.Link>
             </Nav>
 
-            <InputGroup>
+            <InputGroup style={{width:"70%", marginRight:"3%"}}>
                 <InputGroup.Text id="basic-addon1">@</InputGroup.Text>
                 <Form.Control
-                    placeholder="Username"
-                    aria-label="Username"
+                    placeholder="Buscar"
+                    aria-label="Buscar"
                     aria-describedby="basic-addon1"
                 />
             </InputGroup>
-            
-            <img src={trinorma2} className="trinorma"/>
-            <img src={logPerfilNav} className="trinorma"/>
+            <img src={logPerfilNav} style={{width:"10%"}}/>
         </Container>
       </Navbar>
     );
